@@ -1,0 +1,307 @@
+body {
+  margin: 0 auto;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.header {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  background-color: white;
+  box-shadow: 0 0 2px 0 wheat;
+  z-index: 1;
+}
+
+.container-fluid {
+  width: 96%;
+  margin: 0 auto;
+}
+
+.navbar {
+  text-decoration: none;
+  color: black;
+  font-size: 15px;
+  margin: 12px;
+  line-height: 1.5;
+}
+
+.logo {
+  letter-spacing: 4px;
+  line-height: 1.5;
+}
+
+.logo a:hover {
+  color: #000 !important;
+  background-color: #ccc;
+  outline: 6px solid #ccc;
+}
+
+.listitems ul li {
+  display: inline-block;
+  color: black;
+  line-height: 1.5;
+}
+
+.list_item a:hover {
+  color: #000;
+  background-color: #ccc;
+  outline: 6px solid #ccc;
+}
+
+.submenus {
+  margin-top: 12px;
+}
+
+.listitems {
+  float: right;
+  font-size: 15px;
+  letter-spacing: 4px;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+.listitems ul li a {
+  color: black;
+}
+
+.list_item {
+  padding: 0px 10px 0px 9px;
+}
+
+.container-fluid div {
+  display: inline-block;
+}
+
+/* image*/
+.headerimg {
+  width: 100%;
+}
+
+.banner-section {
+  position: relative;
+  width: 100%;
+  min-height: 500px;
+  background-image: url(../images/slack-imgs.com.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.Banner {
+  width: 100%;
+}
+
+/*img text*/
+.bottom-heading {
+  position: absolute;
+  bottom: 20px;
+  font-size: 36px;
+  letter-spacing: 4px;
+  font-family: 'Playfair Display', serif;
+  opacity: 0.5;
+  line-height: 1.5;
+}
+
+.content-container {
+  padding-top: 70px;
+  float: left;
+  width: 100%;
+}
+
+/*About Section*/
+.main-container {
+  width: 80%;
+  margin: 0 auto;
+  display: table;
+}
+
+/* About img*/
+.thirty {
+  float: left;
+  width: 45%;
+}
+
+.seventy {
+  width: 50%;
+  float: right;
+}
+
+/*About img*/
+.about_img {
+  max-width: 100%;
+  opacity: 0.75;
+}
+
+.containe {
+  width: 80%;
+  display: inherit;
+  margin: 0 auto
+}
+
+/*about Content*/
+.abt {
+  font-size: 36px;
+  font-family: "Playfair Display";
+  letter-spacing: 5px;
+  text-align: center;
+  line-height: 1.5;
+  font-weight: 400;
+  margin-top: 10px;
+}
+
+.abt2 {
+  padding-top: 7px;
+  text-align: center;
+  letter-spacing: 5px;
+  font-size: 18px;
+  font-weight: 400;
+  font-family: "Playfair Display";
+}
+
+.para1 {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.para2 {
+  font-size: 18px;
+  color: #757575;
+  line-height: 1.5;
+}
+
+
+.spntext {
+  background-color: #d1d8dd;
+}
+
+/* menu section */
+.menu-section {
+  width: 100%;
+  float: left;
+  padding-top: 70px;
+  padding-bottom: 70px
+}
+
+.menu_content {
+  width: 45%;
+  float: left;
+}
+
+.menu-img {
+  width: 50%;
+  float: right;
+}
+
+/* menu_content */
+.title-heading {
+  text-align: center;
+  font-family: "Playfair Display";
+  letter-spacing: 5px;
+  font-weight: 400;
+  margin: 10px 0;
+  font-size: 36px;
+  padding-bottom: 35px;
+  padding-top: 20px;
+}
+
+.menu-heading {
+  font-size: 20px;
+  line-height: 1.5;
+  font-weight: 400;
+  margin: 10px 0;
+  font-family: "Playfair Display";
+  letter-spacing: 5px;
+}
+
+.menu-paragraph {
+  font-size: 15px;
+  line-height: 1.5;
+  color: #757575;
+}
+
+.menu-image {
+  width: 100%;
+  border-radius: 7px;
+  opacity: 0.75;
+}
+
+/* hr */
+hr {
+  height: 1px;
+  border-width: 0;
+  background-color: #e3cccc;
+  margin-top: 75px;
+}
+
+.contact-section {
+  width: 100%;
+  float: left;
+  margin-bottom: 35px;
+}
+.contact-heading {
+  font-family: "Playfair Display";
+  letter-spacing: 5px;
+  font-weight: 400;
+  margin: 10px 0;
+  font-size: 36px;
+}
+
+.contact-paraghraph {
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+b {
+  font-weight: bolder;
+  color: #607d8b;
+  font-size: 18px;
+}
+
+/* form */
+.form-input {
+  width: 100%;
+  border: none;
+  padding-top: 17px;
+  padding-bottom: 17px;
+  }
+  .forminput {
+    border-bottom: 1px solid #b3a6a6;
+    padding: 10px;
+  }
+/* submit button */
+.sumbit-button {
+  display: inline-block;
+  padding: 8px 16px;
+  color: #000;
+  border: none;
+  font-size: inherit;
+  border-radius: 3px;
+  margin-bottom: 16px;
+  margin-top: 16px;
+}
+
+.sumbit-button:hover {
+  background-color: #ccc;
+  cursor: pointer;
+}
+
+/* footer */
+.footer {
+  width: 100%;
+  float: left;
+  background-color: #f1f1f1;
+}
+
+.footer-section {
+  width: 100%;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.footer-paraghraph {
+  text-align: center;
+  font-size: 15px;
+  line-height: 1.5;
+}
